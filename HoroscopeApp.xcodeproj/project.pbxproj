@@ -11,6 +11,36 @@
 		FC528F0428ABF57A00EAE26D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F0328ABF57A00EAE26D /* ContentView.swift */; };
 		FC528F0628ABF57B00EAE26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC528F0528ABF57B00EAE26D /* Assets.xcassets */; };
 		FC528F0928ABF57B00EAE26D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC528F0828ABF57B00EAE26D /* Preview Assets.xcassets */; };
+		FC528F1D28ABF5F000EAE26D /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F1A28ABF5F000EAE26D /* LocalService.swift */; };
+		FC528F1E28ABF5F000EAE26D /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F1B28ABF5F000EAE26D /* Webservice.swift */; };
+		FC528F1F28ABF5F000EAE26D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F1C28ABF5F000EAE26D /* NetworkService.swift */; };
+		FC528F2128ABF60000EAE26D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F2028ABF60000EAE26D /* Constants.swift */; };
+		FC528F2928ABF60800EAE26D /* CarouselUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F2228ABF60700EAE26D /* CarouselUIModel.swift */; };
+		FC528F2A28ABF60800EAE26D /* TextRowUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F2328ABF60700EAE26D /* TextRowUIModel.swift */; };
+		FC528F2B28ABF60800EAE26D /* FeaturedImageUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F2428ABF60700EAE26D /* FeaturedImageUIModel.swift */; };
+		FC528F2C28ABF60800EAE26D /* ScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F2528ABF60700EAE26D /* ScreenModel.swift */; };
+		FC528F2D28ABF60800EAE26D /* ListUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F2628ABF60800EAE26D /* ListUIModel.swift */; };
+		FC528F2E28ABF60800EAE26D /* RatingRowUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F2728ABF60800EAE26D /* RatingRowUIModel.swift */; };
+		FC528F2F28ABF60800EAE26D /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F2828ABF60800EAE26D /* JSON.swift */; };
+		FC528F3828ABF60E00EAE26D /* RowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F3028ABF60E00EAE26D /* RowComponent.swift */; };
+		FC528F3928ABF60E00EAE26D /* UIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F3128ABF60E00EAE26D /* UIComponent.swift */; };
+		FC528F3A28ABF60E00EAE26D /* CarouselComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F3228ABF60E00EAE26D /* CarouselComponent.swift */; };
+		FC528F3B28ABF60E00EAE26D /* TextRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F3328ABF60E00EAE26D /* TextRowComponent.swift */; };
+		FC528F3C28ABF60E00EAE26D /* EmptyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F3428ABF60E00EAE26D /* EmptyComponent.swift */; };
+		FC528F3D28ABF60E00EAE26D /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F3528ABF60E00EAE26D /* ListComponent.swift */; };
+		FC528F3E28ABF60E00EAE26D /* FeaturedImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F3628ABF60E00EAE26D /* FeaturedImageComponent.swift */; };
+		FC528F3F28ABF60E00EAE26D /* RatingRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F3728ABF60E00EAE26D /* RatingRowComponent.swift */; };
+		FC528F4228ABF61300EAE26D /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F4028ABF61300EAE26D /* Dictionary+Extensions.swift */; };
+		FC528F4328ABF61300EAE26D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F4128ABF61300EAE26D /* View+Extensions.swift */; };
+		FC528F4628ABF61900EAE26D /* HoroscopeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F4428ABF61900EAE26D /* HoroscopeDetailViewModel.swift */; };
+		FC528F4728ABF61900EAE26D /* HoroscopeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F4528ABF61900EAE26D /* HoroscopeListViewModel.swift */; };
+		FC528F4A28ABF61F00EAE26D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F4828ABF61F00EAE26D /* RatingView.swift */; };
+		FC528F4B28ABF61F00EAE26D /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F4928ABF61F00EAE26D /* CarouselView.swift */; };
+		FC528F4D28ABF62800EAE26D /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F4C28ABF62800EAE26D /* Action.swift */; };
+		FC528F5028ABF65400EAE26D /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F4E28ABF65300EAE26D /* Navigator.swift */; };
+		FC528F5128ABF65400EAE26D /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F4F28ABF65400EAE26D /* Route.swift */; };
+		FC528F5328ABF65B00EAE26D /* HoroscopeDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528F5228ABF65B00EAE26D /* HoroscopeDetailScreen.swift */; };
+		FC528F5528ABF73900EAE26D /* horoscope-listing.json in Resources */ = {isa = PBXBuildFile; fileRef = FC528F5428ABF73900EAE26D /* horoscope-listing.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +49,36 @@
 		FC528F0328ABF57A00EAE26D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC528F0528ABF57B00EAE26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC528F0828ABF57B00EAE26D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC528F1A28ABF5F000EAE26D /* LocalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
+		FC528F1B28ABF5F000EAE26D /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		FC528F1C28ABF5F000EAE26D /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FC528F2028ABF60000EAE26D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FC528F2228ABF60700EAE26D /* CarouselUIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselUIModel.swift; sourceTree = "<group>"; };
+		FC528F2328ABF60700EAE26D /* TextRowUIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextRowUIModel.swift; sourceTree = "<group>"; };
+		FC528F2428ABF60700EAE26D /* FeaturedImageUIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedImageUIModel.swift; sourceTree = "<group>"; };
+		FC528F2528ABF60700EAE26D /* ScreenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenModel.swift; sourceTree = "<group>"; };
+		FC528F2628ABF60800EAE26D /* ListUIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListUIModel.swift; sourceTree = "<group>"; };
+		FC528F2728ABF60800EAE26D /* RatingRowUIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingRowUIModel.swift; sourceTree = "<group>"; };
+		FC528F2828ABF60800EAE26D /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		FC528F3028ABF60E00EAE26D /* RowComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowComponent.swift; sourceTree = "<group>"; };
+		FC528F3128ABF60E00EAE26D /* UIComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIComponent.swift; sourceTree = "<group>"; };
+		FC528F3228ABF60E00EAE26D /* CarouselComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselComponent.swift; sourceTree = "<group>"; };
+		FC528F3328ABF60E00EAE26D /* TextRowComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextRowComponent.swift; sourceTree = "<group>"; };
+		FC528F3428ABF60E00EAE26D /* EmptyComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyComponent.swift; sourceTree = "<group>"; };
+		FC528F3528ABF60E00EAE26D /* ListComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
+		FC528F3628ABF60E00EAE26D /* FeaturedImageComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedImageComponent.swift; sourceTree = "<group>"; };
+		FC528F3728ABF60E00EAE26D /* RatingRowComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingRowComponent.swift; sourceTree = "<group>"; };
+		FC528F4028ABF61300EAE26D /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		FC528F4128ABF61300EAE26D /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		FC528F4428ABF61900EAE26D /* HoroscopeDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoroscopeDetailViewModel.swift; sourceTree = "<group>"; };
+		FC528F4528ABF61900EAE26D /* HoroscopeListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoroscopeListViewModel.swift; sourceTree = "<group>"; };
+		FC528F4828ABF61F00EAE26D /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		FC528F4928ABF61F00EAE26D /* CarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		FC528F4C28ABF62800EAE26D /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		FC528F4E28ABF65300EAE26D /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		FC528F4F28ABF65400EAE26D /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		FC528F5228ABF65B00EAE26D /* HoroscopeDetailScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoroscopeDetailScreen.swift; sourceTree = "<group>"; };
+		FC528F5428ABF73900EAE26D /* horoscope-listing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "horoscope-listing.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +111,20 @@
 		FC528F0028ABF57A00EAE26D /* HoroscopeApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC528F1928ABF5CA00EAE26D /* Services */,
+				FC528F1828ABF5C600EAE26D /* Utils */,
+				FC528F1728ABF5C100EAE26D /* UIModels */,
+				FC528F1528ABF5AD00EAE26D /* Components */,
+				FC528F1428ABF5A600EAE26D /* Extensions */,
+				FC528F1328ABF5A000EAE26D /* ViewModels */,
+				FC528F1228ABF59B00EAE26D /* Views */,
+				FC528F1128ABF59700EAE26D /* Actions */,
+				FC528F1028ABF59100EAE26D /* Navigator */,
+				FC528F0F28ABF58900EAE26D /* Screens */,
 				FC528F0128ABF57A00EAE26D /* HoroscopeAppApp.swift */,
-				FC528F0328ABF57A00EAE26D /* ContentView.swift */,
 				FC528F0528ABF57B00EAE26D /* Assets.xcassets */,
 				FC528F0728ABF57B00EAE26D /* Preview Content */,
+				FC528F5428ABF73900EAE26D /* horoscope-listing.json */,
 			);
 			path = HoroscopeApp;
 			sourceTree = "<group>";
@@ -65,6 +135,106 @@
 				FC528F0828ABF57B00EAE26D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC528F0F28ABF58900EAE26D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FC528F5228ABF65B00EAE26D /* HoroscopeDetailScreen.swift */,
+				FC528F0328ABF57A00EAE26D /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FC528F1028ABF59100EAE26D /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				FC528F4E28ABF65300EAE26D /* Navigator.swift */,
+				FC528F4F28ABF65400EAE26D /* Route.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		FC528F1128ABF59700EAE26D /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				FC528F4C28ABF62800EAE26D /* Action.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		FC528F1228ABF59B00EAE26D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC528F4928ABF61F00EAE26D /* CarouselView.swift */,
+				FC528F4828ABF61F00EAE26D /* RatingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC528F1328ABF5A000EAE26D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FC528F4428ABF61900EAE26D /* HoroscopeDetailViewModel.swift */,
+				FC528F4528ABF61900EAE26D /* HoroscopeListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FC528F1428ABF5A600EAE26D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FC528F4028ABF61300EAE26D /* Dictionary+Extensions.swift */,
+				FC528F4128ABF61300EAE26D /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FC528F1528ABF5AD00EAE26D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FC528F3228ABF60E00EAE26D /* CarouselComponent.swift */,
+				FC528F3428ABF60E00EAE26D /* EmptyComponent.swift */,
+				FC528F3628ABF60E00EAE26D /* FeaturedImageComponent.swift */,
+				FC528F3528ABF60E00EAE26D /* ListComponent.swift */,
+				FC528F3728ABF60E00EAE26D /* RatingRowComponent.swift */,
+				FC528F3028ABF60E00EAE26D /* RowComponent.swift */,
+				FC528F3328ABF60E00EAE26D /* TextRowComponent.swift */,
+				FC528F3128ABF60E00EAE26D /* UIComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FC528F1728ABF5C100EAE26D /* UIModels */ = {
+			isa = PBXGroup;
+			children = (
+				FC528F2228ABF60700EAE26D /* CarouselUIModel.swift */,
+				FC528F2428ABF60700EAE26D /* FeaturedImageUIModel.swift */,
+				FC528F2828ABF60800EAE26D /* JSON.swift */,
+				FC528F2628ABF60800EAE26D /* ListUIModel.swift */,
+				FC528F2728ABF60800EAE26D /* RatingRowUIModel.swift */,
+				FC528F2528ABF60700EAE26D /* ScreenModel.swift */,
+				FC528F2328ABF60700EAE26D /* TextRowUIModel.swift */,
+			);
+			path = UIModels;
+			sourceTree = "<group>";
+		};
+		FC528F1828ABF5C600EAE26D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FC528F2028ABF60000EAE26D /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FC528F1928ABF5CA00EAE26D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FC528F1A28ABF5F000EAE26D /* LocalService.swift */,
+				FC528F1C28ABF5F000EAE26D /* NetworkService.swift */,
+				FC528F1B28ABF5F000EAE26D /* Webservice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC528F5528ABF73900EAE26D /* horoscope-listing.json in Resources */,
 				FC528F0928ABF57B00EAE26D /* Preview Assets.xcassets in Resources */,
 				FC528F0628ABF57B00EAE26D /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +308,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC528F1F28ABF5F000EAE26D /* NetworkService.swift in Sources */,
+				FC528F2F28ABF60800EAE26D /* JSON.swift in Sources */,
+				FC528F2C28ABF60800EAE26D /* ScreenModel.swift in Sources */,
+				FC528F5128ABF65400EAE26D /* Route.swift in Sources */,
+				FC528F3A28ABF60E00EAE26D /* CarouselComponent.swift in Sources */,
 				FC528F0428ABF57A00EAE26D /* ContentView.swift in Sources */,
+				FC528F3928ABF60E00EAE26D /* UIComponent.swift in Sources */,
+				FC528F3D28ABF60E00EAE26D /* ListComponent.swift in Sources */,
+				FC528F4A28ABF61F00EAE26D /* RatingView.swift in Sources */,
 				FC528F0228ABF57A00EAE26D /* HoroscopeAppApp.swift in Sources */,
+				FC528F4328ABF61300EAE26D /* View+Extensions.swift in Sources */,
+				FC528F2A28ABF60800EAE26D /* TextRowUIModel.swift in Sources */,
+				FC528F4728ABF61900EAE26D /* HoroscopeListViewModel.swift in Sources */,
+				FC528F3828ABF60E00EAE26D /* RowComponent.swift in Sources */,
+				FC528F5328ABF65B00EAE26D /* HoroscopeDetailScreen.swift in Sources */,
+				FC528F4B28ABF61F00EAE26D /* CarouselView.swift in Sources */,
+				FC528F3C28ABF60E00EAE26D /* EmptyComponent.swift in Sources */,
+				FC528F3F28ABF60E00EAE26D /* RatingRowComponent.swift in Sources */,
+				FC528F2E28ABF60800EAE26D /* RatingRowUIModel.swift in Sources */,
+				FC528F1E28ABF5F000EAE26D /* Webservice.swift in Sources */,
+				FC528F3E28ABF60E00EAE26D /* FeaturedImageComponent.swift in Sources */,
+				FC528F1D28ABF5F000EAE26D /* LocalService.swift in Sources */,
+				FC528F2B28ABF60800EAE26D /* FeaturedImageUIModel.swift in Sources */,
+				FC528F4628ABF61900EAE26D /* HoroscopeDetailViewModel.swift in Sources */,
+				FC528F2928ABF60800EAE26D /* CarouselUIModel.swift in Sources */,
+				FC528F2128ABF60000EAE26D /* Constants.swift in Sources */,
+				FC528F5028ABF65400EAE26D /* Navigator.swift in Sources */,
+				FC528F2D28ABF60800EAE26D /* ListUIModel.swift in Sources */,
+				FC528F4D28ABF62800EAE26D /* Action.swift in Sources */,
+				FC528F3B28ABF60E00EAE26D /* TextRowComponent.swift in Sources */,
+				FC528F4228ABF61300EAE26D /* Dictionary+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HoroscopeApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 7CZ8CAJJXF;
+				DEVELOPMENT_TEAM = 7SH627DBA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -296,7 +496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HoroscopeApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 7CZ8CAJJXF;
+				DEVELOPMENT_TEAM = 7SH627DBA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
